@@ -5,8 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: file://E://my-config-repo
+          uri: https://github.com/KeyGin/spring-cloud-demo
           basedir: target/config
+          search-paths: config-repo
   application:
     name: configserver
   config:
