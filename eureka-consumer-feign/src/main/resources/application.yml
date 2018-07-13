@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eurekaconsumerfeign
+server:
+  port: 2103
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
