@@ -19,6 +19,9 @@
         <module>eureka-client2</module>
         <module>eureka-consumer-ribbon</module>
         <module>eureka-consumer-feign</module>
+        <module>eureka-consumer-ribbon-hystrix</module>
+        <module>eureka-hystrix-dashboard</module>
+        <module>turbine</module>
     </modules>
 
     <parent>

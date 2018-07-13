@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eurekaconsumerribbonhystrix
+server:
+  port: 2104
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
